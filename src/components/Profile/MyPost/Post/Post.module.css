@@ -1,0 +1,27 @@
+.item {
+    color: rgb(51, 52, 52);
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.item img{
+    width: 30px;
+    border-radius: 100px;
+}
+.descr{
+    font-size: 20px;
+    height: 20px;
+}
+.like{
+    font-size: 13px;
+    color: rgb(51, 52, 52);
+    line-height: 10px;
+}
+.post{
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid rgb(51, 52, 52);
+    padding: 10px;
+    border-radius: 10px;
+}

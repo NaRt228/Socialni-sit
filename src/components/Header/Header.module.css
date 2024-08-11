@@ -1,0 +1,11 @@
+.head>img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.head {
+    grid-area: h;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}

@@ -1,7 +1,3 @@
-header>img{
-  width: 50px;
-  margin-left: 20px;
-}
 .App{
   display: grid;
   grid-template-areas:
@@ -12,33 +8,10 @@ header>img{
   grid-gap: 10px;
   padding: 50px;
 }
-header {
-  grid-area: h;
-  background-color: cadetblue;
-  display: flex;
-  align-items: center;
-}
-nav {
-  grid-area: n;
-  display: flex;
-  background-color: darkcyan;
-  padding: 10px;
-  flex-direction: column;
-  width: 100px;
-}
-nav>a{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
-  
+
+.mainContent {
+  grid-area: s;
+  background-color: rgb(99, 208, 204);
 }
 
-.imgSection>img{
-  width: 900px;
-  height: 400px;
-}
-section {
-  grid-area: s;
-  background-color: cornsilk;
-}
+  
